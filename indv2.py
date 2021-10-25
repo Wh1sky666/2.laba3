@@ -15,7 +15,6 @@ if __name__ == '__main__':
     for item in A:
         if item < 0:
             s *= item
-            print(s)
         if item > 0:
             f += item
     print(s,f)
